@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-    """this represents a Rectangle"""
+    """this represents a rectangle"""
 
     def __init__(self, width=0, height=0):
         """Initializing this rectangle class
@@ -13,9 +13,9 @@ class Rectangle:
         Raises:
             TypeError: if size is not integer
             ValueError: if size is less than zero
-    """
-    self.width = width
-    self.height = height
+        """
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
