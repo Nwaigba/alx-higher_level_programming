@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A Class that defines a Rectangle"""
+"""A class that defines a rectangle"""
 
 
 class Rectangle:
@@ -14,7 +14,7 @@ class Rectangle:
             TypeError: if size is not integer
             ValueError: if size is less than zero
         """
-        sel.width = width
+        self.width = width
         self.height = height
 
     @property
